@@ -9,7 +9,7 @@ const gifts = [
 function APP(){
     const [gift , Setgift] = useState()
     const quaythuong = () => {
-        const indext = Math.floor(Math.random() * gifts.length)
+        const index = Math.floor(Math.random() * gifts.length)
         Setgift(gifts[index])
     }
     return(

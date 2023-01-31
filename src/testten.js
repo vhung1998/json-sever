@@ -7,9 +7,6 @@ import './App.css';
 function App() {
 const [name, setName] = useState()
 
-  
-
-console.log(name)
   return (
    
   <div style={{padding:32 }}>
