@@ -1,4 +1,4 @@
-import { Button, Modal, Input, Image } from 'antd';
+import { Modal, Input } from 'antd';
 import React, { useEffect, useState } from 'react';
 
 const ModalEdit = ({ openModal, setOpenModal, name, addUser, editUser,avatarr }) => {
@@ -41,7 +41,7 @@ const ModalEdit = ({ openModal, setOpenModal, name, addUser, editUser,avatarr })
   const handleCancel = () => {
     setOpenModal(false);
   };
-console.log(avatar,99999)
+
   return (
     <>
       <Modal title="Basic Modal" open={openModal} onOk={handleOk} onCancel={handleCancel}>

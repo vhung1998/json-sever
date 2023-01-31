@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import logoImage from './logo.svg';
-import MyApp from './index'
 import './App.css';
 import axios from 'axios';
 import ModalEdit from './modol'

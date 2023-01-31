@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import logoImage from './logo.svg';
-import MyApp from './index'
 import './App.css';
 import axios from 'axios';
 import ModalEdit from './modol'
@@ -111,7 +109,7 @@ function App() {
                 <div className="center">
                   <div className="title" >
                     <img id="image"
-                      src={item.avatar}></img>
+                      src={item.avatar} alt=""></img>
                   </div>
                   <div className="infrom">
                     <span id="name"><h2 className={`${item.id % 2 === 0 ? "pin" : "gren"}`}
